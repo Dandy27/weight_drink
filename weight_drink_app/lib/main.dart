@@ -60,7 +60,7 @@ class _HomeState extends State<Home> {
       backgroundColor: Colors.black,
       appBar: AppBar(
         title: Text('Weight Drinks', style: TextStyle(fontSize: 25),),
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.blueAccent,
         actions: [IconButton(
             icon: Icon(Icons.refresh),
             onPressed: _resetField)],
